@@ -15,7 +15,7 @@ Crie uma pasta para o projeto, abra o git bash e digite esse comando:
 Depois de ter feito as mudanças, você pode subir as alterações para esse repositório. Para isso digite o comando abaixo para conectar ao repo remoto.
 ``git remote add origin https://github.com/PabloLopes19/techinsideblog.git``
 
-Depois rode esse comando para adicionar as suas alterações (Pode adicinar um arquivo em específico ou simplesmente adicionar tudo como mostrado abaixo).
+Depois rode esse comando para adicionar as suas alterações (Pode adicionar um arquivo em específico ou simplesmente adicionar tudo como mostrado abaixo).
 ``git add .``
 
 Após adicionar os arquivos, faça um commit com uma mensagem de sua preferência. Seria bom se fose algo sugestivo às mudanças feitas.
