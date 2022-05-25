@@ -111,3 +111,24 @@ body {
 .outlinedButton:hover{
     opacity: .3;
 }
+
+.saberMais{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.left2{
+    display: flex;
+    flex-direction: column;
+}
+
+.left2_buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left2 p {
+    margin-top: 31px;
+}
