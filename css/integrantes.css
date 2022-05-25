@@ -17,6 +17,10 @@
     margin-top: 100px;
 }
 
+.cardLink{
+    text-decoration: none;
+}
+
 .integrante{
     min-width: 400px;
     height: 156px;
