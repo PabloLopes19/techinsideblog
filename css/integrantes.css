@@ -9,3 +9,8 @@
     justify-content: flex-start;
     padding-top: 150px;
 }
+
+.integrante{
+    background-color: #002241;
+    flex-direction: column;
+}
