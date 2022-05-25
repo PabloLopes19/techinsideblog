@@ -1,7 +1,6 @@
 .container{
     width: 100%;
-    padding: 0 200px;
-    height: 100vh;
+    /* padding: 0 200px; */
 
     display: flex;
     flex-direction: column;
@@ -11,34 +10,63 @@
 }
 
 .integrantes{
-    padding: 100px 30px 61px ;
-
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
 }
 
 .integrante{
-    width: 344px;
+    min-width: 400px;
     height: 156px;
     margin: 0px 30px 61px;
+    padding: 0 2px;
 
     display: flex;
+    align-items: flex-end;
     background: #002241;
     border-radius: 12px;
+    border: 3px solid #052c65;
+    transition: all .2s;
+
+    cursor: pointer;
+}
+.integrante:hover{
+    border: 3px solid #4056D1;
 }
 
 .integrante img{
     height: 215px;
     width: 215px;
     border-radius: 12px;
-    transform: translateY(-59px);
+    transform: translateX(-2px);
+    transition: all .2s;
+}
 
+.text{
+    height: 100%;
+    width: 215px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#bigname{
+    transform: translateX(-30px);
+    width: 70%;
+}
+
+#bigname h2{
+    font-size: 16px;
 }
 
 .integrante h2{
-    font-size: 24px;
-
+    font-size: 20px;
 }
 
 .integrante p{
-    font-size: 18px;
+    font-size: 12px;
     opacity: 0.6;
 }
