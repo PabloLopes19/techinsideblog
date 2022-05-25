@@ -59,7 +59,7 @@
 
 #bigname{
     transform: translateX(-30px);
-    width: 70%;
+    /* width: 70%; */
 }
 
 #bigname h2{
