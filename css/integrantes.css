@@ -10,7 +10,35 @@
     padding-top: 150px;
 }
 
+.integrantes{
+    padding: 100px 30px 61px ;
+
+}
+
 .integrante{
-    background-color: #002241;
-    flex-direction: column;
+    width: 344px;
+    height: 156px;
+    margin: 0px 30px 61px;
+
+    display: flex;
+    background: #002241;
+    border-radius: 12px;
+}
+
+.integrante img{
+    height: 215px;
+    width: 215px;
+    border-radius: 12px;
+    transform: translateY(-59px);
+
+}
+
+.integrante h2{
+    font-size: 24px;
+
+}
+
+.integrante p{
+    font-size: 18px;
+    opacity: 0.6;
 }
